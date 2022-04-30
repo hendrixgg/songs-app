@@ -1,5 +1,10 @@
 import React from "react";
+import SongList from "./SongList";
 
 export default () => {
-  return <h1>App</h1>;
+  return (
+    <div>
+      <SongList />
+    </div>
+  );
 };
